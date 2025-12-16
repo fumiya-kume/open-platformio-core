@@ -2,7 +2,7 @@
 % import os
 % import re
 %
-% recommendations = set(["open-vsx.platformio-ide"])
+% recommendations = set(["open-vsx.platformio-ide", "llvm-vs-code-extensions.vscode-clangd"])
 % unwantedRecommendations = set(["ms-vscode.cpptools-extension-pack"])
 % previous_json = os.path.join(project_dir, ".vscode", "extensions.json")
 % if os.path.isfile(previous_json):
