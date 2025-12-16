@@ -196,7 +196,7 @@ def print_welcome_banner():
             "- %s PlatformIO IDE for embedded development > %s"
             % (
                 click.style("try", fg="cyan"),
-                click.style("https://platformio.org/platformio-ide", fg="cyan"),
+                click.style("https://open-vsx.org/extension/open-vsx/platformio-ide", fg="cyan"),
             )
         )
 
